@@ -15,7 +15,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Sunshiney&display=swap" rel="stylesheet"></head>
     <body onload="carrgega_piadas()">
-        <header>
+        <header class="cabecario">
             <button><i class="fa fa-home">Home</i></button>
             <div class="header-div">
                 <button onclick="excluir_usuario()">Excluir</button>
@@ -30,7 +30,7 @@
                 %>
             </div>
         </header>
-        <form name="pesquisa" class="form-inline" style="display: flex;align-content: center;align-items: center;width: 100%;height: 940px;flex-direction: column;justify-content: center;">
+        <form name="form-index" class="form-inline" style="display: flex;align-content: center;align-items: center;width: 100%;height: 940px;flex-direction: column;justify-content: center;">
             <div style="display: flex;align-content: center;justify-content: flex-end;background-color: #2f3640;width: 60%; height: 50px;">
                 <div style="display: flex;align-items: center;align-content: center;width: 30%;height: 50px;justify-content: flex-end;margin-right: 30px;">
                     <input type="text">
